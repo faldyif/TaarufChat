@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1076221025692",
+    "firebase_url": "https://taarufchat.firebaseio.com",
+    "project_id": "taarufchat",
+    "storage_bucket": "taarufchat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1076221025692:android:11c3eab8b5fe663c",
+        "android_client_info": {
+          "package_name": "com.preklit.taarufchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1076221025692-0diiq680g6pi3eqf4o7acs8rq1d7a229.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.preklit.taarufchat",
+            "certificate_hash": "e3b238cc591b02f60b4487e8f8624249b7cc7e13"
+          }
+        },
+        {
+          "client_id": "1076221025692-kb75daajjkvl4sru7v61b9lg19cd2crc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJoUOU3sXS4Wyght2NUCCUs7S55irP0jI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1076221025692-kb75daajjkvl4sru7v61b9lg19cd2crc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
