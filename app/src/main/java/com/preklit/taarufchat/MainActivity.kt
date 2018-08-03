@@ -2,9 +2,8 @@ package com.preklit.taarufchat
 
 import android.app.Activity
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import android.view.MenuItem
+import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.firebase.ui.auth.AuthUI
 import com.google.firebase.auth.FirebaseAuth

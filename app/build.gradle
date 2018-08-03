@@ -8,7 +8,7 @@ android {
     compileSdkVersion 27
     defaultConfig {
         applicationId "com.preklit.taarufchat"
-        minSdkVersion 18
+        minSdkVersion 19
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -28,12 +28,14 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 
-    // Firebase
-    implementation 'com.google.firebase:firebase-core:16.0.1'
-    implementation 'com.google.firebase:firebase-auth:16.0.2'
+    // UI Libraries
+    implementation 'com.github.stfalcon:chatkit:0.3.0'                     // chatkit
+    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'          // firebase ui
 
-    // FirebaseUI
-    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'
+    // Database Libraries
+    implementation 'com.google.firebase:firebase-core:16.0.1'       // firebase core
+    implementation 'com.google.firebase:firebase-auth:16.0.2'       // firebase auth
+    implementation 'com.pusher:chatkit-android:0.2.4'               // pusher chatkit
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
