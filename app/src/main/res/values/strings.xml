@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Taaruf Chat</string>
+    <string name="firebase_web_host" translatable="false">taarufchat.firebaseapp.com</string>
 </resources>
