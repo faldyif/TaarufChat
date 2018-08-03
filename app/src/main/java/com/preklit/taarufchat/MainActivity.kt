@@ -50,9 +50,7 @@ class MainActivity : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         when (requestCode) {
-            RC_SIGN_IN -> {
-                if (resultCode == Activity.RESULT_OK) initLoggedIn()
-            }
+            RC_SIGN_IN -> if (resultCode == Activity.RESULT_OK) initLoggedIn()
         }
     }
 }
