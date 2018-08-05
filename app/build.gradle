@@ -29,12 +29,14 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.1.2'
 
     // UI Libraries
-    implementation 'com.github.stfalcon:chatkit:0.3.0'                     // chatkit
-    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'          // firebase ui
+    implementation 'com.github.stfalcon:chatkit:0.3.0'              // chatkit
+    implementation 'com.firebaseui:firebase-ui-auth:4.1.0'          // firebase auth ui
+    implementation 'com.firebaseui:firebase-ui-firestore:4.1.0'     // firebase firestore ui
 
     // Database Libraries
     implementation 'com.google.firebase:firebase-core:16.0.1'       // firebase core
     implementation 'com.google.firebase:firebase-auth:16.0.2'       // firebase auth
+    implementation 'com.google.firebase:firebase-firestore:17.0.4'  // firebase firestore
     implementation 'com.pusher:chatkit-android:0.2.4'               // pusher chatkit
 
     testImplementation 'junit:junit:4.12'
