@@ -17,6 +17,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.SelectGenderActivity" />
+        <activity android:name=".activity.ListCalonActivity"></activity>
     </application>
 
 </manifest>
